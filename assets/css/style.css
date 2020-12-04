@@ -1,6 +1,5 @@
 /* font-family and color properties were consolidated */
 /* CSS selectors (such as "header h1 .seo" and "header div ul") were shortened if possible */
-/* Single quotation marks were added around Calibri, Arial, and sans-serif */
 /* Minimized redundancy for the "benefit" and "contents" classes*/
 
 * {
@@ -14,11 +13,11 @@ body {
 }
 
 header, footer {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header div, .benefits, content {
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header, a, .benefit, content {
