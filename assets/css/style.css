@@ -8,39 +8,39 @@ body {
     background-color: #d9dcd6;
 }
 
+/* color and font-family properties were consolidated */
+header, a, main, .benefits {
+    color: #ffffff;
+}
+
+header, footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 header {
     padding: 20px;
     background-color: #2a607c;
 }
 
-/* font-family and color properties were consolidated */
-header, footer {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-header div, .benefits, content {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-header, a, .benefit, content {
-    color: #ffffff;
-}
-
-/* CSS selectors (such as "header h1 .seo" and "header div ul") were shortened if possible */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.seo {
-    color: #d9dcd6;
+nav, main, aside {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header div {
+/* CSS selectors (such as "header h1 .seo" and "header nav ul") were shortened if possible */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
+}
+
+.seo {
+    color: #d9dcd6;
 }
 
 ul {
@@ -65,14 +65,14 @@ a {
     background-position: center;
 }
 
-content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Minimized redundancy for the "contents" and "benefit" classes*/
-.contents {
+/* Minimized redundancy for the benefit classes, section and aside tags*/
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -80,11 +80,11 @@ content {
     color: #ffffff;
 }
 
-.contents img {
+section img {
     max-height: 200px;
 }
 
-.contents h2 {
+section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -103,7 +103,7 @@ p {
     font-size: 16px;
 }
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -113,17 +113,17 @@ p {
     background-color: #2589bd;
 }
 
-.benefit {
+aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
