@@ -8,23 +8,19 @@ body {
     background-color: #d9dcd6;
 }
 
-/* color and font-family properties were consolidated */
-header, a, main, .benefits {
-    color: #ffffff;
-}
-
-header, footer {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 header {
     padding: 20px;
     background-color: #2a607c;
 }
 
-h1 {
-    display: inline-block;
-    font-size: 48px;
+/* Color property was consolidated for the following selectors */
+header, a, main, section {
+    color: #ffffff;
+}
+
+/* Front family property was consolidated for the following selectors */
+header, footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav, main, aside {
@@ -37,6 +33,11 @@ nav {
     margin-right: 20px;
     float: right;
     font-size: 20px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
 }
 
 .seo {
@@ -71,8 +72,8 @@ main {
     margin-left: 20px;
 }
 
-/* Minimized redundancy for the benefits class, section and aside tags*/
-section {
+/* Minimized redundancy for the article tags */
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -80,11 +81,11 @@ section {
     color: #ffffff;
 }
 
-section img {
+article img {
     max-height: 200px;
 }
 
-section h2 {
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -103,6 +104,7 @@ p {
     font-size: 16px;
 }
 
+/* Minimized redundancy for the aside tag */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -118,12 +120,13 @@ aside {
     color: #ffffff;
 }
 
-.benefits h3 {
+/* Minimized redundancy for the section tags */
+section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits img {
+section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
