@@ -11,4 +11,4 @@ Starter code of **Horiseon Marketing Agency**'s website has been refractored to 
 ```
 
 ### Link:
-<https://chomieu.github.io/Homework1/>
+<https://chomieu.github.io/Code-Refractor/>
